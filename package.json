@@ -1,0 +1,27 @@
+{
+  "name": "pokedexcli_ts",
+  "version": "1.0.0",
+  "description": "Pokedex CLI Tool - Typescript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/main.js",
+    "dev": "npx tsc && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RussB-626/pokedexcli_ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RussB-626/pokedexcli_ts/issues"
+  },
+  "homepage": "https://github.com/RussB-626/pokedexcli_ts#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "typescript": "^5.9.3"
+  }
+}
