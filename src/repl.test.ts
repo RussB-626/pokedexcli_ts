@@ -16,7 +16,7 @@ describe.each([
   },
   {
     input: "  this has       many WORDs to PARSE  ",
-    expected: ["this","has","many","words","to","parse"],
+    expected: ["this", "has", "many", "words", "to", "parse"],
   }
 ])("cleanInput($input)", ({ input, expected }) => {
   test(`Expected: ${expected}`, () => {
